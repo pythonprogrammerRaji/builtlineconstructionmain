@@ -467,7 +467,11 @@
     
     .site-wrapper{
         flex-wrap: wrap;
+        width: 100%;
        
+    }
+    .site-card{
+        width: 300px;
     }
     .property-wrapper{
         flex-wrap: wrap;
