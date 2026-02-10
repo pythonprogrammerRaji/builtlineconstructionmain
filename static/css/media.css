@@ -623,6 +623,7 @@
 }
 
 @media (min-width: 901px) and (max-width: 1250px){
+    
     .section-container{
         max-width: 100%;
         width: 100%;
@@ -750,8 +751,7 @@
     }
      .project-card{
         flex-wrap: wrap;
-        width: 47%;
-        flex-direction: row;
+        width: 30px !important;
         gap: 0px;
     }
    
