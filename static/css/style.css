@@ -49,7 +49,7 @@ img{
 /* fixed navbar */
 
 .hero-header {
-  width: 100%;
+  width: 98%;
   border-radius: 60px;
   padding: 6px 35px;
   display: flex;
@@ -68,7 +68,7 @@ header img{
     width: 160px;
     height: 150px;
     margin-top: 180px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     z-index: 4;
     display: none;
     border-radius: 20%;
@@ -87,7 +87,6 @@ header nav{
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 0px 10px;
 
 
 }
@@ -119,8 +118,9 @@ header nav a:hover, .scroll-container navbar a:hover{
     border-radius: 6px;
     display: none;
     z-index: 100;
-    border: none;
+    border: 2px solid #B68D40 !important;
     padding: 10px;
+    
    
 }
 .dropdown-menu a:hover {
@@ -659,12 +659,7 @@ line-height: 1.6;
   height: 100%;
   text-align: left;
   margin-left: 20px !important;
-}
-
-
-.counter-container .container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
+  width: 350px;
 }
 
 
@@ -717,7 +712,7 @@ line-height: 1.6;
     margin-top: -20px;
 }
 .counter-box p{
-    color: white;
+    color: gray;
     font-family: SN Pro;
 }
 /* footer */
@@ -2352,14 +2347,16 @@ summary::-webkit-details-marker {
 }
 .project-iframe {
     margin: 20px 30px;
-    /* width: 95vw; */
+    padding: 0;
+}
+
+.sub-project{
+    margin-top: 110px;
 }
 .counters{
     height: fit-content !important;
 }
-/* .counter-heading{
-    height: 35vh;
-} */
+
 .project-prapper{
     height: fit-content;
 }
@@ -2795,11 +2792,13 @@ html, body {
   padding: 0;
   background-color: #ede7f6; 
 }
-
 .counter-section{
     background-color: #b68d40;
 }
 
+.counter-section h3, .counter-section p{
+    color: #fff;
+}
 .brand-section{
     background-color: #f4ebd0;
 }
@@ -2917,7 +2916,105 @@ html, body {
 
 
 
+/* career */
+.career-container{
+    padding: 0px 5%;
+    
+}
+.career-hero{
+  padding: 40px 0px;
+  width: 100% !important;
+  /* border: 1px solid #000; */
+  
+}
 
+.career-hero h1 {
+  color: #B68D40;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.career-content{
+    text-align: left;
+    margin-top: 20px;
+}
+.career-content {
+    color: #444;
+    font-size: 17px;
+    
+}
+.career-content h4{
+    margin-top: 20px;
+    color: #B68D40;
+}
+.hero-buttons .btn, .job-btn {
+  padding: 14px 28px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid #B68D40;
+}
+
+.btn.primary {
+  background: #B68D40;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #B68D40;
+}
+.btn.primary:hover{
+     background: #fff;
+     color: #B68D40;
+     transition: all 1s ease-in;
+}
+
+.btn.secondary, .job-btn {
+  border: 2px solid #B68D40;
+  color: #B68D40;
+}
+.btn.secondary:hover, .job-btn:hover{
+    color: #fff;
+    background-color: #B68D40;
+    transition: all 1s ease-in;
+}
+
+.divider {
+  width: 100px;
+  height: 3px;
+  background: #B68D40;
+  margin: 50px auto 30px;
+}
+
+.highlights span {
+  color: #B68D40;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+
+.job-card{
+    padding: 20px;
+    margin: 0px;
+}
+.job-card p, .job-card ul li{
+    font-size: 18px;
+}
+.job-btn{
+   margin: 0;
+
+}
+.career-Cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.career-Cta .sub-Text{
+    width: 650px;
+}
+.career-Cta a{
+    text-decoration: none;
+    color: #B68D40;
+}
 
 
 
