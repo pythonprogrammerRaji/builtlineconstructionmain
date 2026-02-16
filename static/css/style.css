@@ -10,11 +10,11 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+body p{
+    font-family: 'Roboto', sans-serif !important;
 }
-/* p, span{
-    font-family: SN Pro;
+/* p{
+    font-family: SN Pro!important;
     
 } */
 html, body {
@@ -263,9 +263,6 @@ body.scrolled .scroll-header {
     overflow: hidden;
 }
 .hero-content {
-    position: relative;
-    width: 1000px;
-    top: 190px;
     text-align: center;
     opacity: 0;  
     font-family: Caudex;
@@ -841,7 +838,16 @@ line-height: 1.6;
     text-align: center;
     
 }
-.timeline-heading{
+.timeline-heading h3{
+    background-color: darkgoldenrod;
+    height: 60px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.timeline-heading h2{
     font-weight: 700;
     color: #ffffff;
     background-color: #000;
@@ -1161,6 +1167,7 @@ input, textarea, select {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  
 }
 
 .expertise-header h2 {
@@ -1186,8 +1193,8 @@ input, textarea, select {
   font-size: 16px;
   color: #475569;
   line-height: 1.8;
-  max-width: 900px;
-  font-family: SN Pro;
+  width: 100%;
+  
 }
 
 .expertise-cards {
@@ -2028,7 +2035,7 @@ details[open] .toggle-content {
     display: flex;
     align-content: center;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 35px;
 }
 .compare-box{
      /* flex:  10px;    */
@@ -2102,7 +2109,7 @@ summary::-webkit-details-marker {
     flex: 1 1 300px; 
     display: flex;
     align-content: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     gap: 25px;
     margin-top: 20px;
     flex-grow: 0;
@@ -2114,6 +2121,43 @@ summary::-webkit-details-marker {
     margin-right: auto;
     text-align: center;
     font-size: 17px;
+}
+
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;   /* THIS MAKES IT RESPONSIVE */
+}
+/* Override flex only when .list is table */
+table.list {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.list tr {
+    display: table-row;
+    
+}
+
+table.list td {
+    display: table-cell;
+    width: calc(100% / 10);
+    text-align: center;
+    padding: 18px 10px;
+    border-right: 1px solid #ccc;
+}
+
+table.list td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+table.list td:last-child {
+    border-right: none;
 }
 
 /* calculation */
@@ -2247,7 +2291,7 @@ summary::-webkit-details-marker {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   transition: transform 0.3s ease;
   margin-top: 30px;
-  height: 400px;
+  height: fit-content;
 }
 
 .project-card:hover {
@@ -2369,13 +2413,21 @@ summary::-webkit-details-marker {
 /* services */
 .services-section{
     /* margin-top: 80px; */
-    background: #f5f7fa;
+    background: #fff;
     padding: 10px 0% !important;
     width: 100%;
+    
+
+}
+.services-section p{
+     font-family: 'Roboto', sans-serif !important;
+    font-size: 18px;
 }
 .services-cards{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
+    
+    background-color: #f5f7fa;
 }
 .service-row{
     display: flex;
@@ -2445,6 +2497,7 @@ summary::-webkit-details-marker {
     margin-left: 20px;
 }
 
+
 .services-Cta{
     display: flex;
     align-items: center;
@@ -2500,7 +2553,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 /* ===== LOGIN CONTAINER ===== */
