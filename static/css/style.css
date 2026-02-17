@@ -1436,6 +1436,33 @@ input, textarea, select {
     color: gray;
 }
 
+/* Comparison table */
+.Comparison-table{
+    width: 100%;
+    padding: 20px 5%;
+    background-color: #f5f7fa;
+    
+}
+.table-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.table-box table, th{
+    text-transform: uppercase;
+}
+.table-box table, th, td{
+    padding: 10px;
+    font-size: 20px;
+}
+table, th, td {
+  border:2px solid black;
+}
 
 /* carousel */
 .carousel{
@@ -3075,7 +3102,27 @@ html, body {
     color: #B68D40;
 }
 
+/* whatsapp */
+.whatsapp-float{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 120px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 55px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    text-decoration: none;
+}
 
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+}
 
 
 
