@@ -1405,6 +1405,7 @@ input, textarea, select {
     height: 300px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    object-fit: cover;
 }
 .team-icons{
     width: 10%;
