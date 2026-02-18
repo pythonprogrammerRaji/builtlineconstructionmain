@@ -2451,6 +2451,7 @@ table.list td:last-child {
      font-family: 'Roboto', sans-serif !important;
     font-size: 18px;
 }
+
 .services-cards{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
@@ -2471,6 +2472,10 @@ table.list td:last-child {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+}
+
+.services-keyword h2{
+    font-size: 20px;
 }
 
 .service-col img{
@@ -2984,13 +2989,15 @@ html, body {
  
 /* individual blogs */
 
-.section-blog{
+.section-blog, .keyword-box{
     padding: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-bottom: 20px;
 }
 
-
+.keyword-box h2{
+    font-size: 25px;
+}
 .section-blog h2{
     font-weight: bold;
     font-size: 30px;
