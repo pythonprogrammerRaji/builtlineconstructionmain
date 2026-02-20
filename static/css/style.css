@@ -723,8 +723,8 @@ line-height: 1.6;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px 7%;
-    gap: 60px;
+    padding: 20px 3%;
+    gap: 30px;
     height: 70vh;
 }
 
@@ -756,13 +756,13 @@ line-height: 1.6;
 }
 .footer-box h4{
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 19px;
     color: #000;
 }
 .footer-box h3{
     position: relative;
     color: #000;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
 }
 .line{
@@ -779,7 +779,7 @@ line-height: 1.6;
     border-radius:15px;
 }
 .footer-box p{
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
     cursor: pointer;
 }
@@ -833,6 +833,7 @@ line-height: 1.6;
 /* timeline */
 .timeline-container{
     width: 100%;
+    margin-top: -40px
 }
 .timeline-container h1{
     text-align: center;
@@ -1511,10 +1512,7 @@ table, th, td {
     align-items:center;
     justify-content: center;
     gap: 20px;
-    
-    /* flex-wrap: nowrap; */
-    /* width: 100vw;
-    */
+    flex-wrap: wrap;
 }
 
 
@@ -2925,10 +2923,9 @@ html, body {
 }
 .timeline-section{
     background-color: #d4af37;
+    
 }
-.team-section{
-    background-color: #Bdb76b;
-}
+
 
 .testimonial-section{
     background-color: #fdfbd4;
